@@ -1,0 +1,235 @@
+a {
+	text-decoration: none;
+}
+
+body{
+	font-family: "century gothic";
+	background: #ccf2ff;
+}
+
+form {
+	width: 1000px;
+	margin-left: 10px;
+	margin-top:50px;
+	position: absolute;
+}
+
+
+
+.Search {
+	width: 20%;
+	padding: 10px;
+	font-size: 15px;
+	margin-top: 0px;
+
+}
+
+.submit {
+	width: 10%;
+	padding: 10px;
+	font-size: 15px;
+	background-color: #ffccf2;
+	color: black;
+	transition: 0.5s;
+
+}
+
+.submit:hover {
+	background: #d9d9d9;
+	color: #404040;
+}
+
+.logo2{
+	margin-left: 45%;
+	margin-right: 55%;
+
+}
+
+.login {
+	width: 10%;
+	padding: 10px;
+	font-size: 15px;
+	background-color: #ffccf2;
+	color: white;
+	margin-left: 60%;
+	margin-bottom: 30px;
+	position: absolute;
+	color: black;
+	transition: 0.5s;
+}
+
+.login:hover {
+	background: #d9d9d9;
+	color: #404040;
+}
+
+.facebook {
+	width: 10%;
+	padding: 10px;
+	color: white;
+	margin-left: 78%;
+	margin-top: 43px;
+	position: absolute;
+}
+
+.instagram {
+	width: 10%;
+	padding: 10px;
+	color: white;
+	margin-left: 82%;
+	margin-top: 43px;
+	position: absolute;
+}
+
+.twitter {
+	width: 10%;
+	padding: 10px;
+	color: white;
+	margin-left: 86%;
+	margin-top: 43px;
+	position: absolute;
+}
+
+#logo img{
+	width: 100%
+}
+
+.menu {
+	
+	background-color: #ccf2ff;
+	list-style: none;
+}
+
+
+
+.button{
+	background: #ffccf2;
+	color: black;
+	padding: 10px 25px;
+	margin: 10px;
+	transition: 0.5s;
+}
+
+.button:hover {
+	background: #d9d9d9;
+	color: #404040;
+}
+    	
+.main-menu {
+	margin-bottom: 10px;
+	}
+
+#main-menu {
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-gap:20px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+.box{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #ccf2ff;
+	text-align: center;
+	border: 2px solid #3366cc;
+
+}
+
+.box input[type= "text"],.box input[type = "password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3366cc;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	border-radius: 24px;
+	transition: 0.25s; 
+}
+
+.box input[type= "text"]:focus,.box input[type = "password"]:focus{
+	width: 280px;
+	border-color: #3366cc;
+}
+
+.box input[type = "submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #66ff66;
+	padding: 14px 40px;
+	width: 200px;
+	outline: none;
+	border-radius: 24px;
+	transition: 0.25s; 
+}
+
+.box input[type= "submit"]:hover{
+	background: #66ff66;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	margin-bottom: 20px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-left{
+	background: #ccf2ff;
+	padding: 40px;
+	display: grid;#ccf2ff
+	grid-gap: 50px;
+	margin-top: 120%;
+}
+
+.footer-center{
+	background: #ccf2ff;
+	padding: 40px;
+	display: grid;
+	grid-gap: 50px;
+	margin-top: 120%;
+}
+
+.footer-right{
+	background: #ccf2ff;
+	padding: 40px;
+	display: grid;
+	grid-gap: 50px;
+	margin-top: 120%;
+}
+
+
+.footer{
+	margin-top: 10px;
+	overflow: hidden;
+	height: 100%;
+}
+.footer figure div{
+	width: 20%;
+	float: left;
+}
